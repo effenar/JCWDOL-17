@@ -19,8 +19,8 @@ function findUnique(arr: number[]): number[] {
     return arr.filter((item, index) => arr.indexOf(item) === index && arr.lastIndexOf(item) === index);
 }
 
-const arr = [4,1,2,1,2];
-console.log("2. " + findUnique(arr));
+const arrExc10 = [4,1,2,1,2];
+console.log("2. " + findUnique(arrExc10));
 
 
 //Given two strings s and t, return true if t is an anagram of s, and false otherwise
